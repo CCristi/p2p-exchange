@@ -33,9 +33,10 @@ To run the P2P Exchange application, follow these simple steps:
 
    Use this command to start a secondary node for increased network reliability and scalability.
 
-## Usage
+## Improvements
 
-Once the application is running, you can access the P2P Exchange platform via the provided API endpoints or user interface. Users can create accounts, list cryptocurrencies for exchange, and execute transactions securely.
+1. Right now application does not support leader node election, therefore it is not fault tolerant. If the leader node goes down, the application will stop working. This can be fixed by implementing a leader election algorithm such as Raft or Paxos.
+2. Also, the application does not check if secondary node accepts leader order book. This can be fixed by implementing a consensus algorithm which is going to be used to validate if 1/2 + 1 of nodes are in agreement. 
 
 ## Contributing
 
