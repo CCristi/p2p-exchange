@@ -46,7 +46,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 2. Create a new branch for your feature or bug fix
 3. Make changes and commit them to your branch
 4. Submit a pull request with a clear description of your changes
-
----
-
-Feel free to reach out if you have any questions or concerns. Happy exchanging! 🚀
