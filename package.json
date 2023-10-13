@@ -1,0 +1,21 @@
+{
+  "name": "p2p-exchange",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "LEADER=true PORT=3000 node app.mjs",
+    "start:secondary": "PORT=3001 node app.mjs",
+    "grapes": "bash scripts/run-grapes.sh",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "grenache-grape": "^0.9.12",
+    "grenache-nodejs-link": "^1.0.0",
+    "grenache-nodejs-ws": "^0.7.10",
+    "zod": "^3.22.4"
+  }
+}
